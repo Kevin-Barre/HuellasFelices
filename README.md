@@ -6,8 +6,8 @@
 
 - 🔐 Sistema de inicio de sesión básico para acceder a funcionalidades personalizadas.
 --
-<img src="https://github.com/user-attachments/assets/63965537-48c6-40cd-ba11-f127f6a8d549" width="300" height="500">
-<img src="https://github.com/user-attachments/assets/292087ca-054f-4b8d-b8d6-4f4c8134cea3" width="300" height="500">
+<img src="https://github.com/user-attachments/assets/63965537-48c6-40cd-ba11-f127f6a8d549" width="500" height="500">
+<img src="https://github.com/user-attachments/assets/292087ca-054f-4b8d-b8d6-4f4c8134cea3" width="500" height="500">
 
 
 - 🐶 Visualización de información detallada de cada perro disponible para adopción.
@@ -17,15 +17,16 @@
 - 📱 Diseño **responsive**, adaptable a dispositivos móviles, tabletas y computadoras.
 - 🧭 Interfaz centrada en la **experiencia del usuario**, priorizando la navegación intuitiva y accesible.
 
+---
 ## ⚙️ Tecnologías Utilizadas
 
 - **HTML5**: estructura semántica del sitio.
 - **CSS3**: diseño visual y estilo adaptativo.
 - **JavaScript**: funcionalidades interactivas del sitio (como el login y navegación dinámica).
 
-## 📸 Capturas de Pantalla (opcional)
+## 🏢 Sobre Nosotros)
 
-> *(Aquí puedes incluir imágenes del sitio en funcionamiento si deseas mostrar su diseño.)*
+<img src="https://github.com/user-attachments/assets/ce5d4d77-1f48-4773-94a2-a041af03eba9" width="900" height="500">
 
 ## 🚀 Cómo Ejecutar el Proyecto
 
