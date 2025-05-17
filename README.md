@@ -8,7 +8,7 @@
 --
 <img src="https://github.com/user-attachments/assets/63965537-48c6-40cd-ba11-f127f6a8d549" width="300" height="500">
 <img src="https://github.com/user-attachments/assets/292087ca-054f-4b8d-b8d6-4f4c8134cea3" width="300" height="500">
---
+---
 - 🐶 Visualización de información detallada de cada perro disponible para adopción.
 --
 <img src="https://github.com/user-attachments/assets/63965537-48c6-40cd-ba11-f127f6a8d549" width="300" height="500">
