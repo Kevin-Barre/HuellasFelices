@@ -11,9 +11,10 @@
 
 
 - 🐶 Visualización de información detallada de cada perro disponible para adopción.
+
 --
 <img src="https://github.com/user-attachments/assets/63965537-48c6-40cd-ba11-f127f6a8d549" width="300" height="500">
---
+
 - 📱 Diseño **responsive**, adaptable a dispositivos móviles, tabletas y computadoras.
 - 🧭 Interfaz centrada en la **experiencia del usuario**, priorizando la navegación intuitiva y accesible.
 
