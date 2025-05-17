@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopciones | HF</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript/controlVisibilidad.js"></script>
+</head>
+<body>
+    <header class="header" id="cabecera">
+        <div class="container-menu">
+            <div class="container-logo">
+                <img src="Imagenes/Logo-removebg-preview.png" alt="">
+            </div>
+            <div class="container-nav">
+                <div class="option" onclick="visibilidadPantalla('showHidenLogin')">
+                    <a href="#showHidenLogin">Registro</a>
+                </div>
+                <div class="option" onclick="mostrarOcultar ('showHiden')">
+                    <a href="#showHiden">Acerca de</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Contenido principal-->
+    <div class="card-container" id="contenedorCartas">
+        <div class="card">
+            <img src="Imagenes/imagen1.jpg" alt="">
+            <div  class="card-description">
+                <h3>Tobby - Golden Retriever</h3>
+                <p>
+                    Tobby tiene 3 años, es un compañero leal y cariñoso que disfruta de jugar, correr y pasar tiempo al aire libre. Su carácter dócil y ansioso por complacer le hace fácil de entrenar, mientras que su gentileza con los niños y otros animales lo convierte en la opción perfecta para familias activas.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Imagenes/peero2.jpg" alt="">
+            <div class="card-description">
+                <h3>Juancho - Dóberman Pinscher</h3>
+                <p>
+                    Juancho tiene 4 años, es inteligente, leal y tiene un fuerte instinto protector. Es valiente y confiado, siempre dispuesto a defender a su dueño y su territorio. Sin embargo, detrás de su imponente apariencia se esconde un corazón cariñoso y juguetón que disfruta de la compañía humana.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Imagenes/imagen3.jpg" alt="">
+            <div  class="card-description" >
+                <h3>Chard - Beagles</h3>
+                <p>
+                    Juancho tiene 4 años, es inteligente, leal y tiene un fuerte instinto protector. Es valiente y confiado, siempre dispuesto a defender a su dueño y su territorio. Sin embargo, detrás de su imponente apariencia se esconde un corazón cariñoso y juguetón que disfruta de la compañía humana.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="maestra-card-information" id="showHiden">
+        <div class="h2-titulo">
+            <h2 id="info">Acerca de: </h2>
+        </div>
+        <div class="card-information" >
+            <div class="item-imagen">
+                <img src="Imagenes/Default_A_heartwarming_scene_of_five_diverse_dogs_each_with_un_2.jpg" alt="">
+            </div>
+            <div class="item-description">
+                <p>
+                    En Adopciones Huellas Felices, creemos que cada perro merece un hogar lleno de amor y cuidados. Nuestro objetivo es conectar a perros necesitados con familias que estén dispuestas a ofrecerles una vida plena y feliz. 
+                    <h4>Nuestra Misión</h4>
+                    Nuestra misión es rescatar, rehabilitar y reubicar a perros que han sido abandonados, maltratados o que simplemente necesitan un nuevo hogar. Trabajamos incansablemente para asegurar que cada perro que llega a nosotros reciba la atención médica, el cariño y el entrenamiento necesario para que puedan integrarse exitosamente en su nueva familia. 
+                    <h4>Nuestro Proceso</h4>
+                    <ul>
+                        <li><b>Rescate:</b> Colaboramos con refugios, rescatistas independientes y comunidades locales para identificar y rescatar perros en situaciones de riesgo.</li>
+                        <li><b>Rehabilitación:</b> Cada perro recibe atención veterinaria completa, que incluye vacunas, desparasitaciones y, si es necesario, tratamientos médicos especializados.</li>
+                        <li><b>Adopción:</b> Nos esforzamos por conocer a cada perro y sus necesidades individuales para encontrar el hogar perfecto. Nuestras adopciones están diseñadas para asegurar que tanto el perro como la nueva familia estén felices y satisfechos.</li> 
+                    </ul> 
+                    <h4>¿Cómo Puedes Ayudar?</h4>
+                    <ul>
+                        <li><b>Adopta:</b> Dale a un perro la oportunidad de ser parte de tu familia. Revisa nuestros perfiles de adopción para encontrar tu compañero ideal.</li>
+                        <li><b>Fomenta:</b> Si no puedes adoptar, considera ser una familia de acogida temporal para un perro en necesidad.</li>
+                        <li><b>Dona:</b> Tu apoyo financiero nos permite continuar nuestra misión y ayudar a más perros. Aceptamos donaciones en efectivo, alimentos, suministros médicos y más.</li>
+                        <li><b>Voluntariado:</b> Únete a nuestro equipo de voluntarios y contribuye con tu tiempo y habilidades para mejorar la vida de nuestros perros.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Formulario de registro-->
+    <div class="mestra-login" id="showHidenLogin">
+        <div class="login1" id="login1">
+            <button class="salir" onclick="volverInicio()">X</button>
+            <div class="login-logo">
+                <img src="Imagenes/Logo-removebg-preview.png" alt="">
+            </div>
+            <div class="login-container">
+                <h2>Crear Cuenta</h2>
+                <form action="" class="information-login">
+                    <label for="nombre"> Nombre</Label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre " required>
+                    <label for="apellido"> Apellido </Label>
+                    <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+                </form>
+            </div>
+            <button class="btn-acciones" onclick="mostrarSiguiente()">Siguiente</button>
+        </div>
+
+        <div class="login2" id="login2">
+            <button class="salir" onclick="volverInicio()">X</button>
+            <div class="login-logo">
+                <img src="Imagenes/Logo-removebg-preview.png" alt="">
+            </div>
+            <div class="login-container">
+                <form action="" class="information-login">
+                    <label for="correo">Correo</Label>
+                    <input type="email" id="correo" placeholder="Ingrese su correo electrónico 📧" required>
+                    <label for="passw" > Contraseña </Label>
+                    <input type="password" id="passw" placeholder="Ingrese su contraseña 🔒 " required>
+                    <label for="passw-confirm">Confirmar Contraseña </Label>
+                    <input type="password" id="passwConfirm"placeholder="Por favor, vuelva a ingresar su contraseña 🔏" required>
+                </form>
+            </div>
+            <button class="btn-acciones" onclick="registrarDatos()">Aceptar</button>
+        </div>
+    </div>
+
+    <footer class="footer" id="piePagina" >
+        <div class="card-footer">
+            <div class="items-footer">
+                <b>Contacto</b>
+                <p>
+                    Kevin Alcides Barre Espin
+                </p>
+            </div>
+            <div class="items-footer">
+                <b>Dirección</b> 
+                <p>
+                    CalleTorrente Isabel Banda s/n.*LocalidadBaracaldo*PaísUnited States, US (USA)SubregiónNorthern. 
+                </p>
+            </div>
+            <div class="items-footer">
+                <b>Teléfono</b> 
+                <p>
+                    +593 996 544 4562
+                </p>
+            </div>
+            <div class="items-footer">
+                <b>Correo</b> 
+                <ul>
+                    <li>espinkevin09@gmail.com </li>
+                    <li>huellasfelices@gmail.com </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
